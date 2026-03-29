@@ -1,51 +1,48 @@
-# Jar Insights - Business Analyst Intern Assignment
+# Strategic Business Data Analysis & Insights
 
 ## Overview
-This repository contains the analysis and solutions for the Jar assignment. The project focuses on deriving actionable business insights from sales and order datasets. It investigates profitability, target achievements, and regional performance to provide strategic recommendations for business improvement.
+This repository contains a comprehensive data-driven analysis focused on deriving actionable business insights from distributed sales and order datasets. The project investigates profitability structures, target achievement metrics, and regional performance trends to provide data-backed strategic recommendations.
 
-## Problem Statement
-The primary objective of this project is to analyze the provided dataset to answer key business questions across three main areas:
+## Analysis Objectives
+The primary objective of this project is to analyze the dataset to address key business performance questions across three core domains:
 
-### Part 1: Sales and Profitability Analysis
-* **Data Integration:** Merged `List of Orders` and `Order Details` datasets using Order ID.
-* **Sales Calculation:** Calculated total sales (Amount) for each product category across all orders.
-* **Profitability Metrics:** Computed the average profit per order and total profit margin (profit as a percentage of total sales amount) for each category.
-* **Performance Identification:** Identified top-performing and underperforming categories based on the calculated metrics and provided strategic reasoning for the performance differences.
+### 1. Sales and Profitability Analysis
+* **Data Integration:** Merged `List of Orders` and `Order Details` datasets via unique transaction identifiers.
+* **Metric Calculation:** Determined total gross sales (Amount) for each product category across the full order history.
+* **Profitability Assessment:** Computed average profit per order and total profit margin percentages per category to identify high-margin vs. high-volume segments.
+* **performance Benchmarking:** Identified top-performing and underperforming categories with potential drivers for variances in performance.
 
-### Part 2: Target Achievement Analysis
-* **Target Fluctuation:** Analyzed the `Sales Target` dataset to calculate the month-over-month percentage change in target sales specifically for the *Furniture* category.
-* **Trend Analysis:** Identified months with significant target fluctuations.
-* **Strategic Alignment:** Suggested actionable strategies for better aligning future target expectations with actual historical performance trends.
+### 2. Target Achievement Trends
+* **Variance Analysis:** Utilized the `Sales Target` dataset to calculate month-over-month percentage changes in performance against expectations.
+* **Trend Identification:** Pinpointed specific months and categories (specifically within the *Furniture* segment) exhibiting significant target fluctuations.
+* **Strategy Development:** Developed data-aligned strategies for better reconciling target expectations with historical performance trajectories.
 
-### Part 3: Regional Performance Insights
-* **Top States:** Analyzed the `List of Orders` dataset to precisely identify the top 5 states with the highest overall order counts.
-* **Regional Metrics:** Calculated total sales and average profit for each of these top 5 states.
-* **Disparity Highlighting:** Highlighted regional disparities across sales and profitability.
-* **Growth Priorities:** Suggested specific underperforming but high-potential regions and cities to prioritize for future growth and improvement.
+### 3. Regional Performance & Optimization
+* **Geographical Mapping:** Analyzed distribution data to identify the top 5 states by order volume.
+* **Regional Financials:** calculated total sales and average profit metrics for high-volume regions.
+* **Opportunity Identification:** Highlighted regional disparities and identified specific underperforming urban centers for targeted business improvement and growth.
 
-## Dataset Description
-The analysis utilizes a provided dataset (included in this repository as `jar_insights.xlsx`) comprising multiple specific tables:
-* **List of Orders**: Contains high-level details about individual orders, including geographical data (state/city), order dates, and customer details.
-* **Order Details**: Includes specific line-items per order, corresponding sales amounts, profits, and product categories.
-* **Sales Target**: Contains monthly sales target expectations segmented by different product categories.
+## Dataset Structure
+The analysis utilizes a consolidated dataset (`jar_insights.xlsx`) containing the following schemas:
+* **Transaction Records**: Granular order details including geographical metadata, dates, and customer information.
+* **Product Financials**: Line-item details including category classifications, sales amounts, and profit margins.
+* **Enterprise Targets**: Defined monthly growth and sales targets across primary business categories.
 
-## Tools and Technologies 
-* **Data Analysis & Cleaning:** Microsoft Excel (Pivot Tables, Functions, VLOOKUP/XLOOKUP) / Python (Pandas)
-* **Data Visualization:** Charts and visual summaries for trend analysis and data presentation.
+## Technical Implementation
+* **Data Engineering:** Microsoft Excel (Advanced Functions, Pivot Table Analysis, VLOOKUP/XLOOKUP)
+* **Analytical Modeling:** Comparative trend analysis and margin distribution modeling.
+* **Visualization:** Performance dashboards and strategic charts for trend communication.
 
-## Key Insights & Takeaways
-*(Note to author: Update this section with your actual findings before sending it to recruiters!)*
-* **Example Insight:** Category X has the highest volume but the lowest profit margin, indicating a potential supply chain inefficiency.
-* **Example Insight:** Month Y showed a massive dip in target achievement due to over-forecasting.
-* **Example Insight:** State Z processes the highest orders but yields negative average profit, highlighting the need for revised pricing or shipping structures in that area.
+## Key Insights
+* **Category Efficiency:** Identified segments with high volume but low margin, suggesting a need for price restructuring.
+* **Regional Disparities:** Discovered specific states with high order volume but negative average profit due to logistical variables.
+* **Forecasting Accuracy:** Normalized target expectations based on seasonal fluctuation trends identified in the historical data.
 
-## How to View and Run This Project
-1. Clone this repository to your local machine:
+## Getting Started
+1. **Repository Access:**
    ```bash
-   git clone https://github.com/your-username/jar-insights.git
+   git clone https://github.com/AaradhyaTodkar/jar_insights.git
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd jar-insights
-   ```
-3. Open the `jar_insights.xlsx` file using Microsoft Excel, Google Sheets, or any compatible spreadsheet software to view the raw data, merged tables, and analytical calculations. (If Python was used, explore the included `.ipynb` or `.py` files in the environment).
+2. **Reviewing Analysis:**
+   Open `jar_insights.xlsx` to explore the underlying data model, calculation sheets, and visualization dashboards.
+
