@@ -1,7 +1,7 @@
 # Jar Insights - Business Analyst Intern Assignment
 
 ## Overview
-This repository contains the analysis and solutions for the **Business Analyst Intern Assignment @Jar**. The project focuses on deriving actionable business insights from sales and order datasets. It investigates profitability, target achievements, and regional performance to provide strategic recommendations for business improvement.
+This repository contains the analysis and solutions for the Jar assignment. The project focuses on deriving actionable business insights from sales and order datasets. It investigates profitability, target achievements, and regional performance to provide strategic recommendations for business improvement.
 
 ## Problem Statement
 The primary objective of this project is to analyze the provided dataset to answer key business questions across three main areas:
@@ -49,6 +49,3 @@ The analysis utilizes a provided dataset (included in this repository as `jar_in
    cd jar-insights
    ```
 3. Open the `jar_insights.xlsx` file using Microsoft Excel, Google Sheets, or any compatible spreadsheet software to view the raw data, merged tables, and analytical calculations. (If Python was used, explore the included `.ipynb` or `.py` files in the environment).
-
----
-*Disclaimer: This project was completed as part of the screening process for the Business Analyst Intern role at [Jar](https://www.myjar.app/).*
